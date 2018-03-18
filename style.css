@@ -1,0 +1,7 @@
+.header {
+    border: 1px solid gray;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    background-color: gray;
+}
