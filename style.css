@@ -1,7 +1,26 @@
 .header {
-    border: 1px solid gray;
+    border: 2px solid yellow;
     overflow: hidden;
     text-align: center;
     color: black;
-    background-color: gray;
+    background-color: lightgray;
+}
+#title {
+    border: 2px solid green;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+}
+.caption {
+    text-align: center;
+}
+.firstcolumn {
+    border: 2px solid blue;
+}
+.secondcolumn {
+    border: 2px solid purple;
+}
+.thirdcolumn {
+    border: 2px solid red;
 }
