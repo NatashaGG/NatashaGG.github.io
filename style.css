@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: dimgray;
 }
 .header {
     overflow: hidden;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: lightgray;
+    background-color: dimgray;
     font-family: 'Montserrat', sans-serif;
 }
 table {
@@ -13,32 +13,35 @@ table {
 }
 .projects {
     text-align: center;
-    background-color: dimgray;
-    color: white;
+    background-color: darkgray;
+    color: darkslategray;
+}
+.projects2 {
+    box-shadow: 10px 10px gray;
 }
 .caption {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 #social {
-    background-color: black;
-    color: white;
+    background-color: dimgray;
+    color: lightgray;
 }
 #footer {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: dimgray;
+    color: light gray;
     font-family: 'Montserrat', sans-serif;
 }
 a:link {
-    color: blue;
+    color: darkblue;
     text-decoration: none;
 }
 a:visited {
-    color: blue;
+    color: darkmagenta;
 }
 a:hover{
-    color: purple;
+    color: blue;
 }
 a:active {
     color: darkcyan;
