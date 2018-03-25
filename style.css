@@ -10,14 +10,23 @@ body {
 }
 table {
     text-align: center;
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+    overflow-wrap: inherit;
 }
 .projects {
     text-align: center;
     background-color: darkgray;
     color: darkslategray;
 }
+#title {
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+}
 .projects2 {
     box-shadow: 10px 10px gray;
+    border: 3px yellow;
 }
 .caption {
     text-align: center;
