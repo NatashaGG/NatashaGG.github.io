@@ -8,6 +8,21 @@ body {
     background-color: dimgray;
     font-family: 'Montserrat', sans-serif;
 }
+.header div {
+    min-height: 100px;
+    padding: 10px;
+}
+#nav {
+    float: left;
+    width: 100px;
+    margin-right: 12px;
+}
+#name {
+    min-height: 60px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
 table {
     text-align: center;
     width: 70%;
