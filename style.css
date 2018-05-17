@@ -1,27 +1,33 @@
 body {
     background-color: dimgray;
 }
-.header {
+#header {
     overflow: hidden;
     text-align: center;
     color: lightgray;
     background-color: dimgray;
     font-family: 'Montserrat', sans-serif;
-}
-.header div {
-    min-height: 100px;
-    padding: 10px;
+    float: center;
 }
 #nav {
-    float: left;
-    width: 100px;
-    margin-right: 12px;
-}
-#name {
-    min-height: 60px;
-    margin: 10px;
     overflow: hidden;
+    background-color: lightgray;
+    border: 10px solid dimgray;
     text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    
 }
 table {
     text-align: center;
@@ -39,9 +45,12 @@ table {
     font-family: 'Montserrat', sans-serif;
     padding: 3px;
 }
+.card {
+    background-color: darkgray;
+}
 .projects2 {
-    box-shadow: 10px 10px gray;
     border: 3px yellow;
+    padding: 5px;
 }
 .caption {
     text-align: center;
