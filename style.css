@@ -1,31 +1,38 @@
 body {
-    background-color: dimgray;
+    background-color: lightblue;
 }
-#header {
+header {
     overflow: hidden;
     text-align: center;
-    color: lightgray;
-    background-color: dimgray;
+    color: white;
+    background-color: lightblue;
     font-family: 'Montserrat', sans-serif;
-    float: center;
+    padding: 5px;
+}
+#name {
+    float: left;
+    margin: 10px;
 }
 #nav {
+    margin: 10;
     overflow: hidden;
-    background-color: lightgray;
-    border: 10px solid dimgray;
-    text-align: center;
+    background-color: lightblue;
+    float: right;
+    font-size: 25px;
 }
 ul{
-    list-style-type: none;
+    margin: 10px;
 }
 li {
-    float: left;
+    display: inline-block;
+    list-style-type: none;
 }
 li a {
+    color: dimgray;
     display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
+    background-color: lightblue;
+    line-height: 2em;
+    padding: 5px 5px;
     text-decoration: none;
     
 }
@@ -36,9 +43,15 @@ table {
     margin: 0 auto;
     overflow-wrap: inherit;
 }
+.topprojects {
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: dimgray;
+}
 .projects {
     text-align: center;
-    background-color: darkgray;
+    background-color: whitesmoke;
     color: darkslategray;
 }
 #title {
@@ -49,43 +62,91 @@ table {
     background-color: darkgray;
 }
 .projects2 {
-    border: 3px yellow;
     padding: 5px;
+    float: right;
+}
+#web330 {
+    background-color: lightcoral;
+    padding: 10px;
+}
+#portfolioprototype {
+    background-color: lightsteelblue;
+    padding: 10px;
+}
+#web230 {
+    background-color: darkolivegreen;
+    padding: 10px;
+}
+#biositeprototype {
+    background-color: burlywood;
+    padding: 10px;
+}
+#biosite {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+#rest {
+    background-color: burlywood;
+    padding: 10px;
+}
+#restful {
+    background-color: darkred;
+    padding: 10px;
 }
 .caption {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.bottom {
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    background-color: dimgray;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+.homepage {
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: lightgray;
+}
+#pic {
+    float: left;
+}
+#homepagetext {
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+    color: dimgray;
+    background-color: lightgray;
+    float: right;
 }
 #social {
-    background-color: dimgray;
-    color: lightgray;
+    overflow: hidden;
+    background-color: lightblue;
+    float: center;
+    font-size: 25px;
 }
-#footer {
+#email {
     text-align: center;
-    background-color: dimgray;
-    color: light gray;
+    background-color: lightblue;
+    color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 a:link {
-    color: darkblue;
+    color: white;
     text-decoration: none;
 }
 a:visited {
-    color: darkmagenta;
+    color: white;
 }
 a:hover{
-    color: blue;
+    color: steelblue;
 }
 a:active {
     color: darkcyan;
-}
-.gallery {
-    border: 1px solid #ccc;
-}
-.gallery img {
-    width: 100%;
-}
-.desc {
-    padding: 15px;
-    text-align: center;
 }
