@@ -97,6 +97,10 @@ table {
     background-color: darkgoldenrod;
     padding: 10px;
 }
+#json {
+    background-color: palevioletred;
+    padding: 10px;
+}
 .caption {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
