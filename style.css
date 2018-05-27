@@ -93,6 +93,10 @@ table {
     background-color: darkred;
     padding: 10px;
 }
+#soap {
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
 .caption {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
