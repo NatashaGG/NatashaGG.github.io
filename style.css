@@ -105,6 +105,10 @@ table {
     background-color: goldenrod;
     padding: 10px;
 }
+#micro {
+    background-color: lightpink;
+    padding: 10px;
+}
 .caption {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
