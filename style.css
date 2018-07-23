@@ -85,6 +85,10 @@ table {
     background-color: lightseagreen;
     padding: 10px;
 }
+#heroku {
+    background-color: coral;
+    padding: 10px;
+}
 #rest {
     background-color: burlywood;
     padding: 10px;
