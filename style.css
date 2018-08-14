@@ -117,8 +117,12 @@ table {
     background-color: darksalmon;
     padding: 10px;
 }
-twopizza {
+#twopizza {
     background-color: darkcyan;
+    padding: 10px;
+}
+#ci {
+    background-color: cadetblue;
     padding: 10px;
 }
 .caption {
