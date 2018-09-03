@@ -154,7 +154,7 @@ table {
     background-color: lightgray;
 }
 #pic {
-    float: left;
+    float: center;
 }
 #homepagetext {
     text-align: center;
