@@ -133,6 +133,10 @@ table {
     background-color: darkkhaki;
     padding: 10px;
 }
+#changemgmt {
+    background-color: goldenrod;
+    padding: 10px;
+}
 .caption {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
